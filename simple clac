@@ -1,0 +1,13 @@
+print('This is a calculator')
+a = int(input('enter your first number:'))
+b = int(input('enter your second number:'))
+print('operation you want to select')
+operation = int(input('1 is for addition,2 is for subtraction,3 is for multiplication:'))
+if (operation == 1):
+    print(f'the answer is {a+b}')
+elif (operation == 2):
+    print(f'the answer is {a-b}')
+elif (operation == 3):
+    print(f'the answer is {a*b}')
+else:
+    print ("invalid operation")
